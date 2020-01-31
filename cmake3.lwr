@@ -26,10 +26,10 @@
 inherit: autoconf
 category: baseline
 satisfy:
-  deb: (cmake >= 3.1.0) && (cmake-data >= 3.1.0)
-  rpm: (cmake >= 3.1.0)
-  pacman: cmake >= 3.1.0
-  port: cmake >= 3.1.0
-  portage: dev-util/cmake >= 3.1.0
-  cmd: cmake --version >= 3.1.0
-source: wget+http://cmake.org/files/v3.7/cmake-3.7.0.tar.gz
+  deb: (cmake >= 3.8.0) && (cmake-data >= 3.8.0)
+  rpm: (cmake >= 3.8.0)
+  pacman: cmake >= 3.8.0
+  port: cmake >= 3.8.0
+  portage: dev-util/cmake >= 3.8.0
+  cmd: cmake --version >= 3.8.0
+source: wget+https://github.com/Kitware/CMake/releases/download/v3.16.3/cmake-3.16.3.tar.gz
